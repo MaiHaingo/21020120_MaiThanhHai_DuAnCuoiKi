@@ -1,0 +1,2 @@
+all:
+	g++ -Isrc/include -Lsrc/lib -o main main.cpp GameManager.cpp Graphics.cpp AssetManager.cpp InputManager.cpp Texture.cpp AudioManager.cpp ScreenManager.cpp StartScreen.cpp PlayScreen.cpp Timer.cpp ship.cpp asteroids.cpp bullet.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf
